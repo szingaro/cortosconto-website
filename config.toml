@@ -1,7 +1,7 @@
 baseurl = "https://cortosconto.netlify.com/"  # Include trailing slash
 title = "Cortosconto"
-theme = "hugo-minimal-bootstrap"
-author = "spz"
+theme = "newsroom"
+author = "Weru"
 copyright = "Copyright &copy; 2020, Cortosconto and the Hugo Authors; all rights reserved."
 canonifyurls = true
 paginate = 3
