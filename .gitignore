@@ -1,2 +1,3 @@
 .DS_Store
-*.toml
+config.toml
+resources/_gen/
