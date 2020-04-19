@@ -4,3 +4,6 @@
 [submodule "themes/hugo-minimal-bootstrap/static/bootstrap"]
 	path = themes/hugo-minimal-bootstrap/static/bootstrap
 	url = https://github.com/twbs/bootstrap.git
+[submodule "themes/arabica"]
+	path = themes/arabica
+	url = git@github.com:nirocfz/arabica.git
