@@ -3,8 +3,21 @@
     {{- partial "head.html" . -}}
     <body>
         {{- partial "header.html" . -}}
-        <div id="content">
-        {{- block "main" . }}{{- end }}
+        <div class="container">
+            <div class="row p-4">
+                <div class="col-sm-3 py-2">
+                    {{- partial "left-sidebar.html" . -}}
+                </div>
+                <div class="col-sm-6 py-2">
+                    <h1 class="display-4">here goes the title</h1>
+                    <div id="content" class="py-3">
+                        {{- block "main" . }}{{- end }}
+                    </div>
+                </div>
+                <div class="col-sm-3 py-2">
+                    {{- partial "right-sidebar.html" . -}}
+                </div>
+            </div>
         </div>
         {{- partial "footer.html" . -}}
     </body>
